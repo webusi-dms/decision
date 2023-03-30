@@ -1,7 +1,7 @@
 <p align="center">
 	<img alt="logo" src="http://www.webusi.net/favicon.png">
 </p>
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">decision v1.0.0</h1>
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">decision v1.1.0</h1>
 <h4 align="center">基于SpringBoot+Vue前后端分离的智能决策平台</h4>
 <p align="center">
 	<a href="https://gitee.com/webusi/decision/stargazers"><img src="https://gitee.com/webusi/decision/badge/star.svg?theme=dark"></a>
