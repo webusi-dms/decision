@@ -1,7 +1,7 @@
 <p align="center">
 	<img alt="logo" src="http://www.webusi.net/favicon.png">
 </p>
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">decision v1.1.1</h1>
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">decision v1.2.0</h1>
 <h4 align="center">基于SpringBoot+Vue前后端分离的智能决策平台</h4>
 <p align="center">
 	<a href="https://gitee.com/webusi/decision/stargazers"><img src="https://gitee.com/webusi/decision/badge/star.svg?theme=dark"></a>
@@ -10,7 +10,7 @@
 
 ## 平台简介
 
-智能决策平台是一套全部开源的快速开展决策业务的平台，毫无保留给个人及企业免费使用。
+智能决策平台通过融合多源异构数据，帮助机构利用内外部数据，快速搭建决策规则，助力机构实现决策方式升级，可广泛应用于消费品与零售、金融、政府与公共服务等多个行业。
 
 * 前端采用Vue、Element UI。
 * 后端采用Spring Boot、Spring Security、Redis & Jwt。
@@ -24,6 +24,12 @@
 https://www.webusi.net
 
 ## 更新日志
+### 1.2.0 2023-05-05
+1.  功能：数据源新增http接口
+2.  功能：支持机器学习模型
+3.  功能：决策规则增加机器学习模型和http接口
+
+
 ### 1.1.1 2023-04-14
 1.  功能：规则配置页面，逻辑运算符增加：包含、不包含、不等于
 2.  功能：规则配置页面，右表达式支持选择数据集字段枚举值，支持单选和多选
@@ -51,6 +57,8 @@ https://www.webusi.net
 5.  规则管理：配置决策规则，支持：max、min、sum、avg、count等常用算法。
 6.  策略管理：配置策略，指出何种情况命中策略。
 7.  决策引擎：根据调用入参，执行规则和决策计算，输出决策结果。
+8.  接口管理：配置http接口，满足快速对接http接口数据。
+9.  模型管理：配置机器学习模型，应用于决策规则。
 
 ## 基础功能
 
@@ -86,6 +94,10 @@ https://www.webusi.net
     <tr>
         <td><img src="http://www.webusi.net/dataset-5.png"/></td>
         <td><img src="http://www.webusi.net/flow-6.png"/></td>
+    </tr>
+    <tr>
+        <td><img src="http://www.webusi.net/interface-7.png"/></td>
+        <td><img src="http://www.webusi.net/model-8.png"/></td>
     </tr>
 </table>
 
