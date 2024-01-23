@@ -1,7 +1,7 @@
 <p align="center">
 	<img alt="logo" src="http://www.webusi.net/favicon.png">
 </p>
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">decision v1.2.0</h1>
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">decision v2.0.0</h1>
 <h4 align="center">基于SpringBoot+Vue前后端分离的智能决策平台</h4>
 <p align="center">
 	<a href="https://gitee.com/webusi/decision/stargazers"><img src="https://gitee.com/webusi/decision/badge/star.svg?theme=dark"></a>
@@ -24,6 +24,24 @@
 https://www.webusi.net
 
 ## 更新日志
+### 2.0.1 开发中
+1.  功能：指标计算支持：逻辑函数、集合函数、时间函数、对象函数、数字函数
+2.  功能：http接口鉴权调度
+3.  功能：http接口协议适配
+4.  功能：决策调用日志
+5.  功能：查询决策接口协议
+6.  优化：数据集时间维度查询
+
+### 2.0.0 2024-01-23
+1.  功能：增加指标计算，支持数学函数、文字函数、脱敏函数
+2.  功能：数据集字段支持指标计算
+3.  功能：数据集字段支持枚举值
+4.  功能：支持3级租户：系统级、平台级、客户级
+5.  功能：登录页、欢迎页内容可配、访问域名可配
+6.  功能：代码工具支持多数据源
+7.  功能：支持钉钉扫码登录
+8.  优化：bug修复
+
 ### 1.2.0 2023-05-05
 1.  功能：数据源新增http接口
 2.  功能：支持机器学习模型
