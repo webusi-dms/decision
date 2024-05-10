@@ -47,7 +47,6 @@ https://www.webusi.net
 2.  功能：支持机器学习模型
 3.  功能：决策规则增加机器学习模型和http接口
 
-
 ### 1.1.1 2023-04-14
 1.  功能：规则配置页面，逻辑运算符增加：包含、不包含、不等于
 2.  功能：规则配置页面，右表达式支持选择数据集字段枚举值，支持单选和多选
@@ -66,6 +65,7 @@ https://www.webusi.net
 4.  优化：mybatis转至mybatis-plus
 5.  优化：调整自动生成代码
 6.  优化：调整自动分页
+
 
 ## 核心功能
 1.  数据源管理：配置多个业务数据库，当值只支持MySQL。
@@ -102,20 +102,20 @@ https://www.webusi.net
 ## 演示图
 <table>
     <tr>
-        <td><img src="http://www.webusi.net/login-1.png"/></td>
-        <td><img src="http://www.webusi.net/policy-2.png"/></td>
+        <td><img src="http://www.webusi.net/decision/login-1.png"/></td>
+        <td><img src="http://www.webusi.net/decision/datasource-2.png"/></td>
     </tr>
     <tr>
-        <td><img src="http://www.webusi.net/rule-3.png"/></td>
-        <td><img src="http://www.webusi.net/master-4.png"/></td>
+        <td><img src="http://www.webusi.net/decision/interface-3.png"/></td>
+        <td><img src="http://www.webusi.net/decision/dataset-4.png"/></td>
     </tr>
     <tr>
-        <td><img src="http://www.webusi.net/dataset-5.png"/></td>
-        <td><img src="http://www.webusi.net/flow-6.png"/></td>
+        <td><img src="http://www.webusi.net/decision/function-5.png"/></td>
+        <td><img src="http://www.webusi.net/decision/index-6.png"/></td>
     </tr>
     <tr>
-        <td><img src="http://www.webusi.net/interface-7.png"/></td>
-        <td><img src="http://www.webusi.net/model-8.png"/></td>
+        <td><img src="http://www.webusi.net/decision/decision-7.png"/></td>
+        <td><img src="http://www.webusi.net/decision/flow-8.png"/></td>
     </tr>
 </table>
 
