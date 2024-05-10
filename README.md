@@ -1,3 +1,4 @@
+<!-- lang: java -->
 <p align="center">
 	<img alt="logo" src="favicon.png">
 </p>
