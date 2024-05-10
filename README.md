@@ -1,5 +1,5 @@
 <p align="center">
-	<img alt="logo" src="http://www.webusi.net/favicon.png">
+	<img alt="logo" src="https://www.webusi.net/favicon.png">
 </p>
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">decision v2.0.0</h1>
 <h4 align="center">基于SpringBoot+Vue前后端分离的智能决策平台</h4>
