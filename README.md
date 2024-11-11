@@ -1,8 +1,7 @@
-<!-- lang: java -->
 <p align="center">
 	<img alt="logo" src="favicon.png">
 </p>
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">decision v2.0.0</h1>
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">decision v2.0.1</h1>
 <h4 align="center">基于SpringBoot+Vue前后端分离的智能决策平台</h4>
 <p align="center">
 	<a href="https://gitee.com/webusi/decision/stargazers"><img src="https://gitee.com/webusi/decision/badge/star.svg?theme=dark"></a>
@@ -23,20 +22,24 @@
 * 权限认证使用Jwt，支持多终端认证系统。
 * 支持加载动态权限菜单，多方式轻松权限控制。
 * 高效率开发，使用代码生成器可以一键生成前后端代码。
-* 提供了技术栈（[Vue3](https://v3.cn.vuejs.org) [Element Plus](https://element-plus.org/zh-CN) [Vite](https://cn.vitejs.dev)）版本。
 * 特别鸣谢：[element](https://github.com/ElemeFE/element)，[vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)，[eladmin-web](https://github.com/elunez/eladmin-web)。
 
 ## 团队产品
 https://www.webusi.net
 
 ## 更新日志
-### 2.0.1 开发中
-1.  功能：指标计算支持：逻辑函数、集合函数、时间函数、对象函数、数字函数
+### 2.0.2 规划中
+1.  功能：决策流支持选择指标、数据字段
 2.  功能：http接口鉴权调度
 3.  功能：http接口协议适配
 4.  功能：决策调用日志
 5.  功能：查询决策接口协议
-6.  优化：数据集时间维度查询
+6.  功能：指标统计
+
+### 2.0.1 2024-11-11
+1.  功能：指标计算支持：逻辑函数、集合函数、时间函数、对象函数、数字函数
+2.  功能：规则表达式支持选择指标
+3.  优化：数据集时间维度查询
 
 ### 2.0.0 2024-01-23
 1.  功能：增加指标计算，支持数学函数、文字函数、脱敏函数
@@ -124,7 +127,6 @@ https://www.webusi.net
         <td><img src="decision/flow-8.png"/></td>
     </tr>
 </table>
-
 
 ## 智能决策平台交流
 
